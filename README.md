@@ -5,8 +5,6 @@ Using **Python, SQLite3, Excel, and Tableau**, I created an ETL pipeline and an 
 
 ---
 ## Table of Contents
-- [Olive Oil Sales Analytics Engineering Project](#olive-oil-sales-analytics-engineering-project)
-  - [Table of Contents](#table-of-contents)
   - [📂 Project Overview](#-project-overview)
   - [📊 Live Dashboard:](#-live-dashboard)
   - [🔍 Key Insights](#-key-insights)
