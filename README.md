@@ -1,6 +1,6 @@
 # Olive Oil Sales Analytics Engineering Project
 
-This project dives into sales data for olive oil products from **2019 to 2021**, exploring patterns, trends, and geographic insights across the United States. 
+This project dives into sales data for olive oil products, exploring patterns, trends, and geographic insights across the United States. 
 Using **Python, SQLite3, Excel, and Tableau**, I created an ETL pipeline and an interactive Tableau dashboard to uncover valuable business insights.
 
 ---
