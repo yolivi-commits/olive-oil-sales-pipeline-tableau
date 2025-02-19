@@ -3,6 +3,12 @@
 This project dives into sales data for olive oil products, exploring patterns, trends, and geographic insights across the United States. 
 Using **Python, SQLite3, Excel, and Tableau**, I created an ETL pipeline and an interactive Tableau dashboard to uncover valuable business insights.
 
+### Business Challenge: 
+Sales trends for olive oil products vary across states and timeframes. Understanding regional sales performance, customer behavior, and seasonal trends is crucial for optimizing business strategies, forecasting demand, and improving supply chain efficiency.
+
+### Problem Statement: 
+How can we leverage data-driven insights to optimize sales strategies, analyze demand trends, and improve geographic sales forecasting?
+
 ---
 ## Table of Contents
   - [📂 Project Overview](#-project-overview)
@@ -15,7 +21,7 @@ Using **Python, SQLite3, Excel, and Tableau**, I created an ETL pipeline and an 
 
 ---
 
-## 📂 Project Overview
+##  Project Overview
 
 This project focuses on the end-to-end workflow of preparing, cleaning, and analyzing data to deliver actionable insights. Specifically:
 - **Python** - was used to build a streamlined ETL pipeline that cleans, transforms, and prepares data for analysis.
@@ -27,22 +33,23 @@ This project focuses on the end-to-end workflow of preparing, cleaning, and anal
   - Performance by product category and customer type.
 
 ---
-## 📊 Live Dashboard:
+##  Live Dashboard:
 Click the image below to view the interactive Tableau dashboard on Tableau Public:
 
 [![Dashboard Preview](https://public.tableau.com/static/images/Ol/Olive_Oil_Sales_17377600820360/OliveOilSales/1.png)](https://public.tableau.com/views/Olive_Oil_Sales_17377600820360/OliveOilSales)
 
 ---
-## 🔍 Key Insights
+##  Key Insights
 
-- 🎯 **State-Level Sales**: Texas recorded the highest sales volume across all three years, followed by California.
-- 📊 **Product Trends**: Gift baskets showed steady sales growth, especially during holiday seasons.
-- ✅ **Customer Insights**: Retail customers contributed to over 70% of total sales compared to wholesale.
+-  **State-Level Sales**: Texas recorded the highest sales volume across all three years, followed by California.
+  -  **Actionable Insight:** Marketing spend should be optimized toward high-performing states while investigating the underperformance of other regions.
+-  **Product Trends**: Gift baskets showed steady sales growth, especially during holiday seasons.
+-  **Customer Insights**: Retail customers contributed to over 70% of total sales compared to wholesale.
 
 
 ---
 
-## 🗃️ Dataset Details
+##  Dataset Details
 
 The data includes:
 1. **Client Orders Table**:
@@ -56,7 +63,7 @@ Data highlights:
 
 ---
 
-## 🛠️ ETL Pipeline Process
+##  ETL Pipeline Process
 
 1. **Extract**:
    - Read raw data from multiple CSV files using Python.
@@ -73,7 +80,7 @@ Key Python operations:
 
 ---
 
-## 🧰 Tools & Technologies Used
+##  Tools & Technologies Used
 
 - **Python**: For data cleaning, transformation, and database integration.
   - Libraries: `pandas`, `sqlite3`, `numpy`
@@ -83,7 +90,7 @@ Key Python operations:
   
 ---
 
-## 🔮 Future Work
+##  Future Work
 This project can be extended to include more advanced analytics and automation. Potential future improvements include:
 - Incorporate predictive analytics for forecasting sales trends.
 - Automate the ETL pipeline using workflow orchestration tools (e.g., Apache Airflow).
